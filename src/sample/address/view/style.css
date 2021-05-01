@@ -1,0 +1,96 @@
+.button {
+    -fx-background-radius: 50%;
+    -fx-border: none;
+}
+
+.left-anchor-pane {
+    -fx-background-color: #ABB2B9;
+}
+
+.middle-pane {
+    -fx-background-color: linear-gradient(to left, #E5E8E8, #ABB2B9);
+}
+
+.right-anchor-pane {
+    -fx-background-color: #E5E8E8;
+}
+
+.top-pane {
+    -fx-background-color: #D5D8DC;
+}
+
+.label {
+    -fx-text-fill: #515A5A;
+    -fx-font-family: "Microsoft Yi Baiti";
+    -fx-font-size: 22;
+}
+
+.label-categories {
+    -fx-font-size: 16;
+}
+
+.label-title {
+    -fx-background-color: #515A5A;
+    -fx-font-size: 22;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+}
+
+.check-box {
+    -fx-text-fill: #515A5A;
+    -fx-font-size: 15;
+    -fx-font-family: "Microsoft Yi Baiti";
+}
+
+.slider {
+    -fx-background-color: #A6ACAF;
+    -fx-background-radius: 10;
+}
+
+.grid-pane {
+    -fx-border-color: black;
+}
+
+.label-app-title {
+    -fx-font-weight: bold;
+    -fx-font-size: 50;
+    -fx-background-radius: 50;
+    -fx-background-color: black;
+    -fx-font-family: "Microsoft Yi Baiti";
+}
+
+.text-field {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 10;
+}
+
+.image-view {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+.label-car-descriptions {
+    -fx-font-size: 16;
+    -fx-text-alignment: center;
+}
+
+.label-advice {
+    -fx-text-alignment: center;
+}
+
+.label-pane {
+    -fx-text-alignment: center;
+    -fx-font-size: 16;
+}
+
+.popup-pane {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+.text-area {
+    -fx-background-insets: 0;
+    -fx-background-color: transparent, white, transparent, white;
+    -fx-focus-color: -fx-control-inner-background;
+    -fx-faint-focus-color: -fx-control-inner-background;
+    -fx-text-box-border: -fx-control-inner-background;
+    -fx-border-width: -1;
+}
