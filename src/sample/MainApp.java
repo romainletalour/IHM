@@ -75,8 +75,6 @@ public class MainApp extends Application {
             loader.setLocation(MainApp.class.getResource("address/view/CarDetailOverview.fxml"));
             ScrollPane carOverview = (ScrollPane) loader.load();
 
-            
-
         } catch (IOException e) {
             e.printStackTrace();
         }

@@ -1,0 +1,29 @@
+/**
+    CarDetailOverview.fxml
+ */
+
+.tab {
+    -fx-text-fill: "Microsoft JhengHei";
+}
+
+.label {
+    -fx-text-fill: "Microsoft JhengHei";
+    -fx-font-size: 13;
+    -fx-background-color: #E3E6EA;
+}
+
+.grey-label-tab {
+    -fx-text-fill: "Microsoft JhengHei";
+    -fx-font-size: 13;
+    -fx-background-color: #E3E6EA;
+}
+
+.white-label-tab {
+    -fx-text-fill: "Microsoft JhengHei";
+    -fx-font-size: 13;
+    -fx-background-color: transparent;
+}
+
+.titles {
+    -fx-font-size: 16;
+}
