@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import java.lang.String?>
+<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.Tab?>
 <?import javafx.scene.control.TabPane?>
+<?import javafx.scene.effect.Reflection?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -18,7 +20,10 @@
 
 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="805.0" prefWidth="790.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="88.0" text="Retour" />
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="88.0" text="Retour">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
       <TabPane layoutX="-1.0" layoutY="52.0" prefHeight="752.0" prefWidth="791.0" tabClosingPolicy="UNAVAILABLE">
         <tabs>
           <Tab text="Caractériques détaillées">
@@ -81,22 +86,113 @@
                                           <Label prefHeight="50.0" prefWidth="400.0" styleClass="white-label-tab" stylesheets="@style_cardetailoverview.css" text="Label" GridPane.rowIndex="15" />
                                           <Label prefHeight="55.0" prefWidth="400.0" styleClass="grey-label-tab" stylesheets="@style_cardetailoverview.css" text="Label" GridPane.rowIndex="16" />
                                           <Label prefHeight="55.0" prefWidth="400.0" styleClass="grey-label-tab" stylesheets="@style_cardetailoverview.css" GridPane.columnIndex="1" />
-                                          <Label prefHeight="55.0" prefWidth="400.0" styleClass="grey-label-tab" stylesheets="@style_cardetailoverview.css" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-                                          <Label prefHeight="55.0" prefWidth="400.0" styleClass="grey-label-tab" stylesheets="@style_cardetailoverview.css" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="5" />
-                                          <Label prefHeight="55.0" prefWidth="400.0" styleClass="grey-label-tab" stylesheets="@style_cardetailoverview.css" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="8" />
-                                          <Label prefHeight="55.0" prefWidth="400.0" styleClass="grey-label-tab" stylesheets="@style_cardetailoverview.css" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                                          <Label prefHeight="55.0" prefWidth="400.0" styleClass="grey-label-tab" stylesheets="@style_cardetailoverview.css" text="Diesel 100ch, Essence 75/100/130ch, Electrique 136ch" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                          <Label prefHeight="55.0" prefWidth="400.0" styleClass="grey-label-tab" stylesheets="@style_cardetailoverview.css" text="Manuelle 5/6 rapports et automatique 7 vitesses" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                                          <Label prefHeight="55.0" prefWidth="400.0" styleClass="grey-label-tab" stylesheets="@style_cardetailoverview.css" GridPane.columnIndex="1" GridPane.rowIndex="8" />
                                           <Label prefHeight="55.0" prefWidth="400.0" styleClass="grey-label-tab" stylesheets="@style_cardetailoverview.css" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="12" />
                                           <Label prefHeight="55.0" prefWidth="400.0" styleClass="grey-label-tab" stylesheets="@style_cardetailoverview.css" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="14" />
                                           <Label prefHeight="55.0" prefWidth="400.0" styleClass="grey-label-tab" stylesheets="@style_cardetailoverview.css" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="16" />
-                                          <Label prefHeight="50.0" prefWidth="400.0" styleClass="white-label-tab" stylesheets="@style_cardetailoverview.css" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                                          <Label prefHeight="50.0" prefWidth="400.0" styleClass="white-label-tab" stylesheets="@style_cardetailoverview.css" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                                          <Label prefHeight="50.0" prefWidth="400.0" styleClass="white-label-tab" stylesheets="@style_cardetailoverview.css" text="De 75 à 130 chevaux" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                          <Label prefHeight="50.0" prefWidth="400.0" styleClass="white-label-tab" stylesheets="@style_cardetailoverview.css" text="NC" GridPane.columnIndex="1" GridPane.rowIndex="4" />
                                           <Label prefHeight="50.0" prefWidth="400.0" styleClass="white-label-tab" stylesheets="@style_cardetailoverview.css" GridPane.columnIndex="1" GridPane.rowIndex="6" />
-                                          <Label prefHeight="50.0" prefWidth="400.0" styleClass="white-label-tab" stylesheets="@style_cardetailoverview.css" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="9" />
-                                          <Label prefHeight="50.0" prefWidth="400.0" styleClass="white-label-tab" stylesheets="@style_cardetailoverview.css" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+                                          <Label prefHeight="50.0" prefWidth="400.0" styleClass="white-label-tab" stylesheets="@style_cardetailoverview.css" text="44L" GridPane.columnIndex="1" GridPane.rowIndex="11" />
                                           <Label prefHeight="50.0" prefWidth="400.0" styleClass="white-label-tab" stylesheets="@style_cardetailoverview.css" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="15" />
                                           <Label prefHeight="50.0" prefWidth="400.0" styleClass="white-label-tab" stylesheets="@style_cardetailoverview.css" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="13" />
                                           <Line endX="671.2929077148438" layoutY="50.0" startX="-100.0" stroke="RED" strokeWidth="2.0" GridPane.hgrow="NEVER" GridPane.rowIndex="1" GridPane.vgrow="NEVER" />
                                           <Line endX="671.2929077148438" startX="-100.0" stroke="RED" strokeWidth="2.0" GridPane.rowIndex="7" />
+                                          <TabPane prefHeight="109.0" prefWidth="387.0" tabClosingPolicy="UNAVAILABLE" GridPane.columnIndex="1" GridPane.rowIndex="8">
+                                            <tabs>
+                                              <Tab text="Diesel">
+                                                <content>
+                                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                                         <children>
+                                                            <Label layoutX="21.0" layoutY="3.0" prefHeight="23.0" prefWidth="387.0" text="100ch = 3.9" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                                         </children>
+                                                      </AnchorPane>
+                                                </content>
+                                              </Tab>
+                                              <Tab text="Essence">
+                                                <content>
+                                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                                         <children>
+                                                            <Label layoutX="82.0" layoutY="3.0" prefHeight="23.0" prefWidth="387.0" text="75ch = 4.9 / 100ch = 5.3 / 130ch = 5.2" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                                         </children>
+                                                      </AnchorPane>
+                                                </content>
+                                              </Tab>
+                                                <Tab text="Electrique">
+                                                  <content>
+                                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                                         <children>
+                                                            <Label prefHeight="23.0" prefWidth="387.0" text="136ch = 14,7 kWh/100 km" />
+                                                         </children>
+                                                      </AnchorPane>
+                                                  </content>
+                                                </Tab>
+                                            </tabs>
+                                          </TabPane>
+                                          <TabPane prefHeight="109.0" prefWidth="387.0" tabClosingPolicy="UNAVAILABLE" GridPane.columnIndex="1" GridPane.rowIndex="9">
+                                             <tabs>
+                                                <Tab text="Diesel">
+                                                   <content>
+                                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                                         <children>
+                                                            <Label prefHeight="23.0" prefWidth="387.0" text="100ch = 3.1" />
+                                                         </children>
+                                                      </AnchorPane>
+                                                   </content>
+                                                </Tab>
+                                                <Tab text="Essence">
+                                                   <content>
+                                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                                         <children>
+                                                            <Label layoutX="82.0" layoutY="3.0" prefHeight="23.0" prefWidth="387.0" text="75ch = 3.9/ 100ch = 3.8/ 130ch = 4.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                                         </children>
+                                                      </AnchorPane>
+                                                   </content>
+                                                </Tab>
+                                                <Tab text="Electrique">
+                                                   <content>
+                                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                                         <children>
+                                                            <Label prefHeight="23.0" prefWidth="387.0" text="136ch = 14,7 kWh/100 km" />
+                                                         </children>
+                                                      </AnchorPane>
+                                                   </content>
+                                                </Tab>
+                                             </tabs>
+                                          </TabPane>
+                                          <TabPane prefHeight="109.0" prefWidth="387.0" tabClosingPolicy="UNAVAILABLE" GridPane.columnIndex="1" GridPane.rowIndex="10">
+                                             <tabs>
+                                                <Tab text="Diesel">
+                                                   <content>
+                                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                                         <children>
+                                                            <Label prefHeight="23.0" prefWidth="387.0" text="100ch = 3.4" />
+                                                         </children>
+                                                      </AnchorPane>
+                                                   </content>
+                                                </Tab>
+                                                <Tab text="Essence">
+                                                   <content>
+                                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                                         <children>
+                                                            <Label layoutX="82.0" layoutY="3.0" prefHeight="23.0" prefWidth="387.0" text="75ch = 4.3 / 100ch = 4.4 / 130ch = 4.5" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                                         </children>
+                                                      </AnchorPane>
+                                                   </content>
+                                                </Tab>
+                                                <Tab text="Electrique">
+                                                   <content>
+                                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                                         <children>
+                                                            <Label prefHeight="23.0" prefWidth="387.0" text="136ch = 14,7 kWh/100 km" />
+                                                         </children>
+                                                      </AnchorPane>
+                                                   </content>
+                                                </Tab>
+                                             </tabs>
+                                          </TabPane>
                                        </children>
                                     </GridPane>
                                  </children>
@@ -152,12 +248,23 @@
                                     <Label prefHeight="25.0" prefWidth="180.0" stylesheets="@style_cardetailoverview.css" text="4 Ports" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                                     <Label prefHeight="25.0" prefWidth="180.0" stylesheets="@style_cardetailoverview.css" text="Essence / Diesel / Hybride" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                                     <Label prefHeight="25.0" prefWidth="180.0" stylesheets="@style_cardetailoverview.css" text="265 l" GridPane.columnIndex="3" />
-                                    <Label prefHeight="46.0" prefWidth="174.0" stylesheets="@style_cardetailoverview.css" text="Manuel 5 ou 6 rapports / Automatique 7 rapports" wrapText="true" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                                    <Label prefHeight="46.0" prefWidth="174.0" stylesheets="@style_cardetailoverview.css" text="Manuelle 5 ou 6 rapports / Automatique 7 rapports" wrapText="true" GridPane.columnIndex="3" GridPane.rowIndex="1" />
                                  </children>
                               </GridPane>
                               <Line endX="108.0" fill="BLACK" layoutX="160.0" layoutY="154.0" startX="-114.0" />
                               <Line endX="-52.0" endY="-39.0" layoutX="139.0" layoutY="174.0" startX="-93.5" startY="-20.5" />
                               <Line endX="100.0" layoutX="-55.0" layoutY="152.0" startX="100.0" startY="-90.0" />
+                              <Label layoutX="143.0" layoutY="165.0" text="4.05m" />
+                              <Label layoutX="14.0" layoutY="165.0" text="1.75m" />
+                              <Label layoutX="14.0" layoutY="103.0" text="1.43m" />
+                              <Label alignment="CENTER" layoutX="44.0" layoutY="14.0" prefHeight="36.0" prefWidth="227.0" text="Peugeot 208" wrapText="true">
+                                 <font>
+                                    <Font name="Segoe UI Italic" size="29.0" />
+                                 </font>
+                                 <effect>
+                                    <Reflection fraction="0.61" topOpacity="0.53" />
+                                 </effect>
+                              </Label>
                            </children>
                         </Pane>
                      </children>
