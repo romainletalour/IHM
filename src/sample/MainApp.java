@@ -4,7 +4,6 @@ package sample;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
-import javafx.scene.control.ScrollPane;
 import javafx.scene.image.Image;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
@@ -27,7 +26,7 @@ public class MainApp extends Application {
 
         initRootLayout();
         showPersonOverview();
-        showCarDetail();
+        //showCarDetail();
     }
 
     /**
@@ -69,7 +68,7 @@ public class MainApp extends Application {
         }
     }
 
-    public void showCarDetail() {
+    /*public void showCarDetail() {
         try {
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(MainApp.class.getResource("address/view/CarDetailOverview.fxml"));
@@ -79,6 +78,7 @@ public class MainApp extends Application {
             e.printStackTrace();
         }
     }
+     */
 
     /**
      * Returns the main stage.
